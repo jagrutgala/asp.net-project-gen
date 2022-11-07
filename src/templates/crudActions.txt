@@ -1,0 +1,29 @@
+[HttpPost]
+public ActionResult Create()
+{
+    return View();
+}
+
+[HttpPut]
+public ActionResult Update()
+{
+    return View();
+}
+
+[HttpDelete]
+public ActionResult Delete()
+{
+    return View();
+}
+
+[HttpGet]
+public ActionResult GetAll()
+{
+    return View();
+}
+
+[HttpGet]
+public ActionResult GetById( int id )
+{
+    return View();
+}

@@ -1,0 +1,26 @@
+using #{namespace}.Application.Contracts.Persistence;
+using #{namespace}.Application.Responses;
+using #{namespace}.Domain.Entities;
+using MediatR;
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.Extensions.Logging;
+
+namespace #{namespace}.Commands.#{cls}
+{
+    public class #{cls}CommandHandler : IRequestHandler<#{cls}Command, Response<#{cls}Dto>>
+    {
+        private readonly ILogger<#{cls}CommandHandler> _logger;
+
+        public #{cls}CommandHandler(
+            ILogger<#{cls}CommandHandler> logger
+        )
+        {
+            this._logger = logger;
+        }
+        public async Task<Response<#{cls}Dto>> Handle(#{cls}Command request, CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("Handler Initalized");
+            _logger.LogInformation("Handler Completed");
+        }
+    }
+}

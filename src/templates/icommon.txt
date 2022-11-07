@@ -1,0 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+
+namespace #{namespace}.#{directoryname}
+{
+    public class #{cls}#{type}
+    {
+        #{crud}
+    }
+}

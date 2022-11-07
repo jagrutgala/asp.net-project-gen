@@ -1,0 +1,5 @@
+public #{cls} Create();
+public #{cls} Update();
+public #{cls} Delete();
+public IEnumerable<#{cls}> GetAll();
+public #{cls} GetById( int id );

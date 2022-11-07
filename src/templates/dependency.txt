@@ -1,0 +1,7 @@
+#{dependency_variables}
+public #{cls}#{type}(
+    #{dependency_parameters}
+)
+{
+    #{dependency_assignment}
+}

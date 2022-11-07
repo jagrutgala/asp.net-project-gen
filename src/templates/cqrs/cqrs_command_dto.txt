@@ -1,0 +1,6 @@
+namespace #{namespace}.Commands.#{cls}
+{
+    public class #{cls}Dto
+    {
+    }
+}

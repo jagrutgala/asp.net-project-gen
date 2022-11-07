@@ -1,0 +1,9 @@
+using #{namespace}.Application.Responses;
+using MediatR;
+
+namespace #{namespace}.Commands.#{cls}
+{
+    public class #{cls}Command : IRequest<Response<#{cls}Dto>>
+    {
+    }
+}

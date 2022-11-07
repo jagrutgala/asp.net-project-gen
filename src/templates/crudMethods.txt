@@ -1,0 +1,24 @@
+public #{cls} Create()
+{
+    throw new NotImplementedException();
+}
+
+public #{cls} Update()
+{
+    throw new NotImplementedException();
+}
+
+public #{cls} Delete()
+{
+    throw new NotImplementedException();
+}
+
+public IEnumerable<#{cls}> GetAll()
+{
+    throw new NotImplementedException();
+}
+
+public #{cls} GetById( int id )
+{
+    throw new NotImplementedException();
+}

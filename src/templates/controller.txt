@@ -1,0 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using #{namespace}.Contexts;
+using #{namespace}.Repositories;
+using #{namespace}.Services;
+using #{namespace}.Models;
+
+namespace #{namespace}.#{directoryname}
+{
+    public class #{cls}Controller : Controller
+    {
+        #{dependency}
+
+        #{crud}
+    }
+}

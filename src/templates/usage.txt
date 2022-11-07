@@ -1,0 +1,27 @@
+USAGE:
+  scaffold -[rscm] -[eaqd] -[N:O:C:] arg1 arg2 agr3 ... argN
+  # options
+  h - to show this help message
+  r - will create repositories
+  s - will create services
+  c - will create controllers
+  m - will create models
+
+  e - use empty templates
+  *i - use dep inject templates
+  a - use api templates
+  q - run in quiet mode
+  d - run in debug mode
+
+  N - specify namespace (default value is current directory name)
+  O - specify output directory (default value is current working directory + rscm folder names)
+  C - specify dbcontext cls
+
+  args - list of class
+
+  eg1.
+
+  eg2.
+
+  eg2.
+  "
